@@ -2,6 +2,10 @@
   border:1px solid black;
   background: lightgray;
 }
+.ad-ba{
+  width: 300px;
+  margin: 0 auto;
+}
 
 .main{
   display: flex;
@@ -15,6 +19,8 @@
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
+  width: 160px;
+  margin: 0 auto;
 
 }
 .center{
@@ -29,7 +35,8 @@
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
-
+  width: 160px;
+  margin: 0 auto;
 }
 
 
