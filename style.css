@@ -52,10 +52,31 @@
   height: 140px;
 
 }
+.toolbar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: red;
+}
+
+.tool1{
+  border:1px solid black;
+  flex-grow: 1;
+
+}
+.tool2{
+  border:1px solid black;
+  height: 50px;
+  flex-grow: 1;
+}
+
+button{
+
+}
 
 h1{
-  color: green;
   text-align: center;
+  font-size: 15px;
 
 }
 
