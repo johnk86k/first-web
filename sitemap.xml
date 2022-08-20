@@ -9,7 +9,13 @@
 
 <url>
   <loc>https://linknori.netlify.app/</loc>
-  <lastmod>2022-08-15T15:14:15+00:00</lastmod>
+  <lastmod>2022-08-20T10:35:53+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://linknori.netlify.app/torrent.html</loc>
+  <lastmod>2022-08-20T10:35:53+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
