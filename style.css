@@ -1,6 +1,7 @@
 .title{
   border:1px solid black;
   background: lightgray;
+  text-shadow: 0px 2px black;
 }
 .ad-ba{
   align-items: center;
@@ -8,17 +9,25 @@
   margin: 0 auto;
 }
 .top{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+.bottom{
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-decoration: none;"
+  flex-grow: 1;
 }
 
 .main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   border:1px solid black;
 }
 .left{
@@ -48,8 +57,6 @@
   border:1px solid black;
 }
 
-
-
 .box{
   border:1px solid black;
   background: red;
@@ -62,7 +69,7 @@
   border-radius: 10px;
   transition: all 0.1s;
   border-bottom: 6px solid black;
-
+  text-shadow: 0px 2px black;
 }
 
 .box:active{
@@ -87,6 +94,7 @@
   transition: all 0.1s;
   border-bottom: 6px solid black;
   text-align: center;
+  text-shadow: 0px 2px black;
 
 }
 .btn:active{
@@ -109,8 +117,6 @@ button{
 }
 
 h1{
-  text-align: center;
-  font-size: 15px;
 
 }
 
